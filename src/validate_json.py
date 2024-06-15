@@ -20,9 +20,11 @@ def validate_json(sample_json_to_validate: str) -> bool:
 
 
 sample_json_to_validate = """
-{ "me": "you",
+{   "me": "you", 
+    "more": 25,
+    "nested":{"one":1, "two":2}
 }
 """
 
 if __name__ == "__main__":
-    validate_json(sample_json_to_validate)
+    print(validate_json(sample_json_to_validate))

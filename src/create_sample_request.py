@@ -21,6 +21,12 @@ validate_json("""
             }
         }
     },
-    "candidates": {}    
+    "candidates": {
+        "attributes": {
+            "number_of_pages": 125,
+            "humor_rating": 12,
+            "child_friendliness": 73
+        }
+    }    
 }
 """)

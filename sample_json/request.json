@@ -1,5 +1,5 @@
 {
-  "sample_request": {
+  "request": {
     "comparator": {
       "attributes": {
         "number_of_pages": {
@@ -39,3 +39,4 @@
       }
     }
   }
+}

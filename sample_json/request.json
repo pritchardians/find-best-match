@@ -1,0 +1,41 @@
+{
+  "sample_request": {
+    "comparator": {
+      "attributes": {
+        "number_of_pages": {
+          "perfect_score": 250,
+          "weight": 100
+        },
+        "humor_rating": {
+          "perfect_score": 57
+        },
+        "sentence_complexity": {
+          "weight": 100
+        },
+        "child_friendliness": {
+        }
+      }
+    },
+    "candidates": {
+      "candidate_01": {
+        "attributes": {
+          "number_of_pages": 125,
+          "humor_rating": 12,
+          "child_friendliness": 73
+        },
+        "candidate_02": {
+          "attributes": {
+            "number_of_pages": 47
+          }
+        },
+        "candidate_03": {
+          "attributes": {
+            "number_of_pages": 125,
+            "humor_rating": 12,
+            "child_friendliness": 73,
+            "not processed": 23
+          }
+        }
+      }
+    }
+  }

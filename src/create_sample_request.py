@@ -22,10 +22,12 @@ validate_json("""
         }
     },
     "candidates": {
-        "attributes": {
-            "number_of_pages": 125,
-            "humor_rating": 12,
-            "child_friendliness": 73
+        "candidate_01": {
+            "attributes": {
+                "number_of_pages": 125,
+                "humor_rating": 12,
+                "child_friendliness": 73
+            }
         }
     }    
 }

@@ -3,6 +3,7 @@
 * [find_best_match](#find_best_match)
   * [Summary](#summary)
   * [Problem Statement](#problem-statement)
+  * [Initial Setup](#initial-setup)
   * [Note on Naming](#note-on-naming)
   * [Early Design Decisions](#early-design-decisions)
 <!-- TOC -->
@@ -23,6 +24,12 @@ But the algorithms are often hidden, proprietary and may contain bias. <br><br>
 
 This tool is open sourced and the algorythm is exposed through code, documentation etc. So consumers can see how the
 matching decision is made. <br><br>
+
+## Initial Setup
+- Create virtual environment ```python -m venv venv``` <-- **_NOTE_**: The second _venv_ ref is the directory for the 
+virtual environment. Feel free to choose your own directory name, and change the next instruction to match!
+- activate virtual environment ```. venv/Scripts/activate```
+- Install pip packages ```pip install -r requirements.txt```
 
 ## Note on Naming
 Naming is hard :) Naming the list of candidates was easy (candidates) but naming the set of attributes, scores and

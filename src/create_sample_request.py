@@ -21,7 +21,6 @@ validate_json("""
             }
         }
     },
-    "candidates": {}
-    
+    "candidates": {}    
 }
 """)

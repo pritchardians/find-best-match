@@ -38,6 +38,9 @@ if possible - are non-mutating
 - Build an issue in GitHub before you build the code!
 
 ## Branching Strategy
+- This branching strategy is based on 
+[git-flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) (although we don't use 
+git-flow extensions). **ToDo**: _Discussion - should we? Would they help?_
 - The *main* branch is always a mirror of deployed code. It always works!
 - The *develop* branch is where we commit tested changes
 - Create feature branches from *develop* and merge them in to *develop* when tested

@@ -1,10 +1,10 @@
 from src.validate_json import validate_json
 
-sample_request = open("../sample_json/request.json")
+sample_request = open("request.json")
 
 
 def test_validate_json():
-    assert validate_json(sample_request.read()) is True
+    assert validate_json (sample_request.read()) is True
 
 
 if __name__ == '__main__':

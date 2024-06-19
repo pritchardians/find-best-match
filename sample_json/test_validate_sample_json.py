@@ -11,9 +11,21 @@ def sample_request():
     return sample_request_file.read()
 
 
-def test_validate_json(sample_request):
+@pytest.fixture
+def sample_response():
+    this_dir = os.path.dirname(os.path.realpath(__file__))
+    sample_request_file = open(f"{this_dir}/response.json")
+    return sample_request_file.read()
+
+
+def test_validate_json_request(sample_request):
     assert validate_json(sample_request) is True
 
 
+def test_validate_json_response(sample_response):
+    assert validate_json(sample_response) is True
+
+
 if __name__ == '__main__':
-    test_validate_json()
+    test_validate_json_request()
+    test_validate_json_response()

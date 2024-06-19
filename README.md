@@ -54,6 +54,8 @@ because of the high level of automatic testing, safe.
         - If a candidate has extra attributes, ignore them
 - Do NOT  choose randomly where more than one candidate has the highest score. Return the full set of top matches,
   and the requester can choose how to treat these results
+- Once published as v_1.0.0 and beyond, the API request and response contract should never change - never break code
+that calls it!
 
 ## Sample JSON
 Readme with notes on JSON samples are [here](sample_json/sample_json_readme.md) <br>

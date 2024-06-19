@@ -3,6 +3,8 @@ import pytest
 
 from src.validate_json import validate_json
 
+# ToDo: Refactor me! This uses 2 similar fixtures and functions. Feed the sample name into 1 function?
+# ToDo: Can fixtures have inputs? Or convert to standard functions?
 
 @pytest.fixture
 def sample_request():

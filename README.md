@@ -6,6 +6,7 @@
   * [Initial Setup](#initial-setup)
   * [Note on Naming](#note-on-naming)
   * [Early Design Decisions](#early-design-decisions)
+  * [Sample JSON](#sample-json)
 <!-- TOC -->
 
 ## Summary
@@ -53,3 +54,7 @@ because of the high level of automatic testing, safe.
         - If a candidate has extra attributes, ignore them
 - Do NOT  choose randomly where more than one candidate has the highest score. Return the full set of top matches,
   and the requester can choose how to treat these results
+
+## Sample JSON
+Readme with notes on JSON samples are [here](sample_json/sample_json_readme.md) <br>
+Sample request is here - [request.json](sample_json/request.json)

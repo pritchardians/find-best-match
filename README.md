@@ -67,7 +67,13 @@ because of the high level of automatic testing, safe.
   that calls it!
 
 ## Sample JSON
-
 Readme with notes on JSON samples are [here](sample_json/sample_json_readme.md) <br>
 Sample request is here - [request.json](sample_json/request.json) <br>
 Sample response is here - [response.json](sample_json/response.json)
+
+## Bonus Documentation
+[Here](_hints_docs) is a handy wee directory containing light documentation I built over time
+- [git](_hints_docs/git_hints.md)
+- [Markdown](_hints_docs/markdown_hints.md)
+- [Intellij Idea](_hints_docs/intellijIdea_hints.md)
+- [VS Code](_hints_docs/vscode_hints.md)

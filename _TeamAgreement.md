@@ -38,6 +38,8 @@ if possible - are non-mutating
 - Build an issue in GitHub before you build the code!
 
 ## Branching Strategy
+**_NOTE_**: The branching strategy on the develop and main branches (need approved pull request) are enforced by GitHub 
+actions
 - This branching strategy is based on 
 [git-flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) (although we don't use 
 git-flow extensions). **ToDo**: _Discussion - should we? Would they help?_

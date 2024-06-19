@@ -3,8 +3,10 @@
 * [find_best_match](#find_best_match)
   * [Summary](#summary)
   * [Problem Statement](#problem-statement)
+  * [Initial Setup](#initial-setup)
   * [Note on Naming](#note-on-naming)
   * [Early Design Decisions](#early-design-decisions)
+  * [Sample JSON](#sample-json)
 <!-- TOC -->
 
 ## Summary
@@ -23,6 +25,12 @@ But the algorithms are often hidden, proprietary and may contain bias. <br><br>
 
 This tool is open sourced and the algorythm is exposed through code, documentation etc. So consumers can see how the
 matching decision is made. <br><br>
+
+## Initial Setup
+- Create virtual environment ```python -m venv venv``` <-- **_NOTE_**: The second _venv_ ref is the directory for the 
+virtual environment. Feel free to choose your own directory name, and change the next instruction to match!
+- activate virtual environment ```. venv/Scripts/activate```
+- Install pip packages ```pip install -r requirements.txt```
 
 ## Note on Naming
 Naming is hard :) Naming the list of candidates was easy (candidates) but naming the set of attributes, scores and
@@ -46,3 +54,7 @@ because of the high level of automatic testing, safe.
         - If a candidate has extra attributes, ignore them
 - Do NOT  choose randomly where more than one candidate has the highest score. Return the full set of top matches,
   and the requester can choose how to treat these results
+
+## Sample JSON
+Readme with notes on JSON samples are [here](sample_json/sample_json_readme.md) <br>
+Sample request is here - [request.json](sample_json/request.json)

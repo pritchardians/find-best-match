@@ -1,5 +1,14 @@
 {
-  "response": {
-    
+  "candidates": {
+    "01": {
+      "score": 123,
+      "warnings": {
+        "1": {
+          "section": "comparator",
+          "argument_name": "humor_rating",
+          "warning_text": "Missing weight. Default to 100"
+        }
+      }
+    }
   }
 }

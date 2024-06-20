@@ -37,6 +37,7 @@ matching decision is made. <br><br>
   virtual environment. Feel free to choose your own directory name, and change the next instruction to match!
 - activate virtual environment ```. venv/Scripts/activate```
 - Install pip packages ```pip install -r requirements.txt```
+- To run the app ```python ./src/app.py```
 
 ## Note on Naming
 

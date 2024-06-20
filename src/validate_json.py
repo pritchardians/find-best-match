@@ -17,14 +17,3 @@ def validate_json(sample_json_to_validate: str) -> bool:
     print("---------\nValid JSON\n---------\n")
     print(json_deserialized)
     return True
-
-
-sample_json_to_validate = """
-{   "me": "you", 
-    "more": 25,
-    "nested":{"one":1, "two":2}
-}
-"""
-
-if __name__ == "__main__":
-    print(validate_json(sample_json_to_validate))

@@ -1,7 +1,5 @@
 import json
 
-from src import logger
-
 
 def validate_json(sample_json_to_validate: str) -> bool:
     """

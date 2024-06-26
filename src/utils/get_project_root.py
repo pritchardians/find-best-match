@@ -23,3 +23,6 @@ def get_project_root(project_name: str) -> str:
         print(err_mess)
         # Return full current path - do not fail entire process for this error
         return os.getcwd()
+
+# TESTING NOTE: Note tested because the output depends on the directory path,
+# which changes between developers

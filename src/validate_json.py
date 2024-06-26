@@ -11,7 +11,7 @@ def validate_json(sample_json_to_validate: str) -> bool:
     try:
         json_deserialized = json.loads(sample_json_to_validate)
     except json.JSONDecodeError as e:
-        print("****************\n* INVALID JSON *\n****************\n\nException:")
+        print("****************\n* INVALID JSON *\n****************\n")
         print(e)
         return False
     print("---------\nValid JSON\n---------\n")
@@ -20,7 +20,7 @@ def validate_json(sample_json_to_validate: str) -> bool:
 
 
 sample_json_to_validate = """
-{   "me": "you", 
+{   "me": "you",
     "more": 25,
     "nested":{"one":1, "two":2}
 }

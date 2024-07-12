@@ -9,3 +9,7 @@
 #   generated when the comparator was loaded
 # rate method should take a candidate JSON object and return their rating
 #   based on the rules in the engine
+
+class rules_engine:
+    def __init__(self):
+        pass
